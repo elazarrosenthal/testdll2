@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="42d0b3e7-91d2-45e8-ad72-d8f33e41619d" name="erose@DT-DELL4H5VKM1 2011-09-19 12:55:27" runUser="AM\erose" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9bb6973f-d741-490d-8247-3a7020e874ae">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="erose_DT-DELL4H5VKM1 2011-09-19 12_55_27">
+      <DeploymentItem filename="c:\users\erose\documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\TestDll.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-19T12:55:27.1907904-04:00" queuing="2011-09-19T12:55:27.2287942-04:00" start="2011-09-19T12:55:27.2557969-04:00" finish="2011-09-19T12:55:27.6628376-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestShouldPass" storage="c:\users\erose\documents\visual studio 2010\projects\classlibrary1\testproject1\bin\debug\testproject1.dll" id="3173bded-40be-4a2f-5dad-f66f9323782c">
+      <Execution id="3964f83b-68be-40e1-8774-cca614b05916" />
+      <TestMethod codeBase="c:/users/erose/documents/visual studio 2010/Projects/ClassLibrary1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestShouldPass" />
+    </UnitTest>
+    <UnitTest name="TestShouldFail" storage="c:\users\erose\documents\visual studio 2010\projects\classlibrary1\testproject1\bin\debug\testproject1.dll" id="4fd65194-9063-b360-c11e-82c5f4993f7c">
+      <Execution id="9f6d2690-cd4f-4556-a653-ca4ebdba8c56" />
+      <TestMethod codeBase="c:/users/erose/documents/visual studio 2010/Projects/ClassLibrary1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestShouldFail" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3173bded-40be-4a2f-5dad-f66f9323782c" executionId="3964f83b-68be-40e1-8774-cca614b05916" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4fd65194-9063-b360-c11e-82c5f4993f7c" executionId="9f6d2690-cd4f-4556-a653-ca4ebdba8c56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3964f83b-68be-40e1-8774-cca614b05916" testId="3173bded-40be-4a2f-5dad-f66f9323782c" testName="TestShouldPass" computerName="DT-DELL4H5VKM1" duration="00:00:00.0136453" startTime="2011-09-19T12:55:27.3678081-04:00" endTime="2011-09-19T12:55:27.5978311-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3964f83b-68be-40e1-8774-cca614b05916">
+    </UnitTestResult>
+    <UnitTestResult executionId="9f6d2690-cd4f-4556-a653-ca4ebdba8c56" testId="4fd65194-9063-b360-c11e-82c5f4993f7c" testName="TestShouldFail" computerName="DT-DELL4H5VKM1" duration="00:00:00.0125608" startTime="2011-09-19T12:55:27.6028316-04:00" endTime="2011-09-19T12:55:27.6208334-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f6d2690-cd4f-4556-a653-ca4ebdba8c56">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at TestProject1.UnitTest1.TestShouldFail() in c:\users\erose\documents\visual studio 2010\Projects\ClassLibrary1\TestProject1\UnitTest1.cs:line 26
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

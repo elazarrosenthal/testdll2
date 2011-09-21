@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6849e0ae-40ef-4742-af73-df2a03f23d4c" name="erose@DT-DELL4H5VKM1 2011-09-19 12:54:50" runUser="AM\erose" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9bb6973f-d741-490d-8247-3a7020e874ae">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="erose_DT-DELL4H5VKM1 2011-09-19 12_54_50">
+      <DeploymentItem filename="c:\users\erose\documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\TestDll.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-19T12:54:50.1760893-04:00" queuing="2011-09-19T12:54:50.1980915-04:00" start="2011-09-19T12:54:50.2150932-04:00" finish="2011-09-19T12:54:50.4881205-04:00" />
+  <ResultSummary outcome="NotRunnable">
+    <Counters total="2" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="1" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestShouldPass" storage="c:\users\erose\documents\visual studio 2010\projects\classlibrary1\testproject1\bin\debug\testproject1.dll" id="3173bded-40be-4a2f-5dad-f66f9323782c">
+      <Execution id="fffbc733-43ca-48d9-be52-cb41d4be4d3c" />
+      <TestMethod codeBase="c:/users/erose/documents/visual studio 2010/Projects/ClassLibrary1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestShouldPass" />
+    </UnitTest>
+    <UnitTest name="TestShouldFail" storage="c:\users\erose\documents\visual studio 2010\projects\classlibrary1\testproject1\bin\debug\testproject1.dll" id="293dfa5d-7c52-f5bd-fb36-dd451437c817">
+      <Execution id="1a4c79d9-aa0d-409e-a2a3-8be10ea224a9" />
+      <TestMethod codeBase="c:/users/erose/documents/visual studio 2010/Projects/ClassLibrary1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest2, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestShouldFail" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="293dfa5d-7c52-f5bd-fb36-dd451437c817" executionId="1a4c79d9-aa0d-409e-a2a3-8be10ea224a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3173bded-40be-4a2f-5dad-f66f9323782c" executionId="fffbc733-43ca-48d9-be52-cb41d4be4d3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1a4c79d9-aa0d-409e-a2a3-8be10ea224a9" testId="293dfa5d-7c52-f5bd-fb36-dd451437c817" testName="TestShouldFail" computerName="DT-DELL4H5VKM1" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a4c79d9-aa0d-409e-a2a3-8be10ea224a9">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA004: Illegal use of attribute on TestProject1.UnitTest2.TestShouldFail. The TestMethodAttribute can be defined only inside a class marked with the TestClass attribute.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fffbc733-43ca-48d9-be52-cb41d4be4d3c" testId="3173bded-40be-4a2f-5dad-f66f9323782c" testName="TestShouldPass" computerName="DT-DELL4H5VKM1" duration="00:00:00.0145216" startTime="2011-09-19T12:54:50.2300947-04:00" endTime="2011-09-19T12:54:50.4681185-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fffbc733-43ca-48d9-be52-cb41d4be4d3c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

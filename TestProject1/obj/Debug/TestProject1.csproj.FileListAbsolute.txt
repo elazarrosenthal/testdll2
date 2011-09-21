@@ -1,0 +1,7 @@
+c:\users\erose\documents\visual studio 2010\Projects\ClassLibrary1\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+c:\users\erose\documents\visual studio 2010\Projects\ClassLibrary1\TestProject1\bin\Debug\TestProject1.dll
+c:\users\erose\documents\visual studio 2010\Projects\ClassLibrary1\TestProject1\bin\Debug\TestProject1.pdb
+c:\users\erose\documents\visual studio 2010\Projects\ClassLibrary1\TestProject1\bin\Debug\TestDll.dll
+c:\users\erose\documents\visual studio 2010\Projects\ClassLibrary1\TestProject1\bin\Debug\TestDll.pdb
+c:\users\erose\documents\visual studio 2010\Projects\ClassLibrary1\TestProject1\obj\Debug\TestProject1.dll
+c:\users\erose\documents\visual studio 2010\Projects\ClassLibrary1\TestProject1\obj\Debug\TestProject1.pdb
